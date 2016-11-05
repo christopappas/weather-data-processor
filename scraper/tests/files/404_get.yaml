@@ -106,8 +106,8 @@ interactions:
       Connection: [keep-alive]
       Content-Length: ['6254']
       Content-Type: [text/html; charset=iso-8859-1]
-      Date: ['Sat, 05 Nov 2016 19:34:27 GMT']
+      Date: ['Sat, 05 Nov 2016 20:09:12 GMT']
       Server: [Apache/2.2.15 (Red Hat)]
-      X-NIDS-ServerID: [www8.md]
+      X-NIDS-ServerID: [www7.mo]
     status: {code: 404, message: Not Found}
 version: 1

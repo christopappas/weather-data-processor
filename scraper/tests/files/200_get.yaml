@@ -21,20 +21,21 @@ interactions:
         \n\t<suggested_pickup_period>60</suggested_pickup_period>\n\t<location>Boston,\
         \ Logan International Airport, MA</location>\n\t<station_id>KBOS</station_id>\n\
         \t<latitude>42.36056</latitude>\n\t<longitude>-71.01056</longitude>\n\t<observation_time>Last\
-        \ Updated on Nov 5 2016, 2:54 pm EDT</observation_time>\r\n        <observation_time_rfc822>Sat,\
-        \ 05 Nov 2016 14:54:00 -0400</observation_time_rfc822>\n\t<weather>A Few Clouds</weather>\n\
-        \t<temperature_string>56.0 F (13.3 C)</temperature_string>\r\n\t<temp_f>56.0</temp_f>\r\
-        \n\t<temp_c>13.3</temp_c>\n\t<relative_humidity>53</relative_humidity>\n\t\
-        <wind_string>West at 10.4 MPH (9 KT)</wind_string>\n\t<wind_dir>West</wind_dir>\n\
-        \t<wind_degrees>280</wind_degrees>\n\t<wind_mph>10.4</wind_mph>\n\t<wind_kt>9</wind_kt>\n\
-        \t<pressure_string>1018.4 mb</pressure_string>\n\t<pressure_mb>1018.4</pressure_mb>\n\
-        \t<pressure_in>30.08</pressure_in>\n\t<dewpoint_string>39.0 F (3.9 C)</dewpoint_string>\r\
-        \n\t<dewpoint_f>39.0</dewpoint_f>\r\n\t<dewpoint_c>3.9</dewpoint_c>\n\t<windchill_string>53\
-        \ F (12 C)</windchill_string>\r\n      \t<windchill_f>53</windchill_f>\r\n\
-        \      \t<windchill_c>12</windchill_c>\n\t<visibility_mi>10.00</visibility_mi>\n\
-        \ \t<icon_url_base>http://forecast.weather.gov/images/wtf/small/</icon_url_base>\n\
+        \ Updated on Nov 5 2016, 3:54 pm EDT</observation_time>\r\n        <observation_time_rfc822>Sat,\
+        \ 05 Nov 2016 15:54:00 -0400</observation_time_rfc822>\n\t<weather>Mostly\
+        \ Cloudy</weather>\n\t<temperature_string>56.0 F (13.3 C)</temperature_string>\r\
+        \n\t<temp_f>56.0</temp_f>\r\n\t<temp_c>13.3</temp_c>\n\t<relative_humidity>53</relative_humidity>\n\
+        \t<wind_string>from the West at 11.5 gusting to 19.6 MPH (10 gusting to 17\
+        \ KT)</wind_string>\n\t<wind_dir>West</wind_dir>\n\t<wind_degrees>290</wind_degrees>\n\
+        \t<wind_mph>11.5</wind_mph>\n\t<wind_gust_mph>19.6</wind_gust_mph>\n\t<wind_kt>10</wind_kt>\n\
+        \t<wind_gust_kt>17</wind_gust_kt>\n\t<pressure_string>1019.1 mb</pressure_string>\n\
+        \t<pressure_mb>1019.1</pressure_mb>\n\t<pressure_in>30.10</pressure_in>\n\t\
+        <dewpoint_string>39.0 F (3.9 C)</dewpoint_string>\r\n\t<dewpoint_f>39.0</dewpoint_f>\r\
+        \n\t<dewpoint_c>3.9</dewpoint_c>\n\t<windchill_string>53 F (12 C)</windchill_string>\r\
+        \n      \t<windchill_f>53</windchill_f>\r\n      \t<windchill_c>12</windchill_c>\n\
+        \t<visibility_mi>10.00</visibility_mi>\n \t<icon_url_base>http://forecast.weather.gov/images/wtf/small/</icon_url_base>\n\
         \t<two_day_history_url>http://www.weather.gov/data/obhistory/KBOS.html</two_day_history_url>\n\
-        \t<icon_url_name>few.png</icon_url_name>\n\t<ob_url>http://www.weather.gov/data/METAR/KBOS.1.txt</ob_url>\n\
+        \t<icon_url_name>bkn.png</icon_url_name>\n\t<ob_url>http://www.weather.gov/data/METAR/KBOS.1.txt</ob_url>\n\
         \t<disclaimer_url>http://weather.gov/disclaimer.html</disclaimer_url>\r\n\t\
         <copyright_url>http://weather.gov/disclaimer.html</copyright_url>\r\n\t<privacy_policy_url>http://weather.gov/notice.html</privacy_policy_url>\r\
         \n</current_observation>\n"}
@@ -42,11 +43,11 @@ interactions:
       Accept-Ranges: [bytes]
       Access-Control-Allow-Origin: ['*']
       Connection: [keep-alive]
-      Content-Length: ['2283']
+      Content-Length: ['2395']
       Content-Type: [application/xml]
-      Date: ['Sat, 05 Nov 2016 19:32:08 GMT']
-      Last-Modified: ['Sat, 05 Nov 2016 19:02:12 GMT']
+      Date: ['Sat, 05 Nov 2016 20:09:12 GMT']
+      Last-Modified: ['Sat, 05 Nov 2016 20:02:06 GMT']
       Server: [Apache/2.2.15 (Red Hat)]
-      X-NIDS-ServerID: [www9.md]
+      X-NIDS-ServerID: [www1.mo]
     status: {code: 200, message: OK}
 version: 1
