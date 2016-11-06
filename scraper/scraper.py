@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
+import logging
 from lxml import etree
 import re
 import requests
@@ -8,6 +9,7 @@ import requests
 
 import sys
 
+logger = logging.getLogger(__name__)
 
 def scrape(url):
     '''
@@ -20,18 +22,19 @@ def scrape(url):
         r = requests.get(url)
         code = r.status_code
         if code == 200:
-            print(url)
+            logger.info("200 response from {}".format(url))
             return r
         else:
             # we're not interested in non 200 codes
+            logger.warning("Non-200 response from {}".format(url))
             return None
-            # ADD SOMETHING HERE AS LOG INFORMATION
 
     except Exception as e:
         #if url is badly formed or something
-        print("Something went wrong when trying to scrape.")
+        logger.critical("Something went wrong when trying to scrape: "
+            "{}".format(e)
+            )
         raise e
-        # ADD SOMETHING HERE AS LOG INFORMATION
 
 def extract_xml_and_clean(response):
     '''
